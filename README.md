@@ -5,7 +5,7 @@
 > *A structured protocol turns the LLM from a chatbot into a force multiplier.*
 
 **DOI:** [10.5281/zenodo.20154578](https://doi.org/10.5281/zenodo.20154578)
-**License:** [CC BY 4.0](LICENSE.txt)
+**License:** [CC BY 4.0](release/LICENSE.txt)
 
 ---
 
@@ -44,7 +44,7 @@ No Docker. No API keys. No multi-agent frameworks. A single conversation thread 
 
 ### The 5 Prompts
 
-Five reusable prompt patterns cover the full pipeline: Literature Synthesis, Derivation with Reality Check, Code Prototyping, Section Drafting, Verification Audit. → See [`prompts/`](prompts/)
+Five reusable prompt patterns cover the full pipeline: Literature Synthesis, Derivation with Reality Check, Code Prototyping, Section Drafting, Verification Audit. → See [`release/prompts/`](release/prompts/)
 
 ### Try It Today
 
@@ -52,11 +52,11 @@ Five reusable prompt patterns cover the full pipeline: Literature Synthesis, Der
 2. **Open an LLM conversation** with file access and code execution.
 3. **Follow the five phases** (total: ~5 hours of focused time).
 4. **Measure your speedup.** Compare against how long it would have taken alone.
-5. **Report back.** → See [`CONTRIBUTING.md`](CONTRIBUTING.md)
+5. **Report back.** → See [`CONTRIBUTING.md`](release/CONTRIBUTING.md)
 
 ### Read the Full Whitepaper
 
-→ **[PLAYBOOK.md](PLAYBOOK.md)** — complete methodology, case studies, verification protocol, limitations, and call to action.
+→ **[PLAYBOOK.md](release/PLAYBOOK.md)** — complete methodology, case studies, verification protocol, limitations, and call to action.
 
 ---
 
