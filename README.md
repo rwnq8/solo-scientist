@@ -1,34 +1,63 @@
-# Amplifying the Solo Scientist
+# The Force-Multiplier Playbook
 
-## Identity
-**Type:** Meta-research / Methodology
-**Domain:** Scientific methodology, AI-augmented research, human-AI collaboration
-**Status:** Active — initial outputs generated, methodology defined
+## How One Scientist + One LLM Can Match a Research Team
 
-## Core Thesis
-A single human researcher, armed with a structured LLM workflow, can reproduce the output of a small theoretical research team at a speedup factor of ~20–30×. The bottleneck to scientific productivity has shifted from team size to human creativity and LLM-fluency.
+> *A structured protocol turns the LLM from a chatbot into a force multiplier.*
 
-## What This Project Produces
-1. **The Force-Multiplier Protocol:** A replicable methodology for human+LLM research
-2. **The Solo-Research Stack:** Open-source toolchain (Docker, LLM API, SymPy, version control)
-3. **The Force-Multiplier Playbook:** Reusable prompt templates and workflow patterns
-4. **A flagship paper:** Peer-reviewed publication demonstrating methodology and metrics
-5. **Cross-domain case studies:** Physics, computational biology, pure mathematics, philosophy
+**DOI:** [10.5281/zenodo.20154578](https://doi.org/10.5281/zenodo.20154578)
+**License:** [CC BY 4.0](LICENSE.txt)
 
-## Case Study
-The methodology draws on a real-time case study: resolving the cosmological constant discrepancy via ultrametric (p-adic) quantum gravity frameworks. The physics project serves as a living laboratory for the methodology.
+---
 
-## Constraints
-- **Single human + single LLM:** No additional team members
-- **Reproducible:** All outputs traceable to specific prompts and verification steps
-- **Domain-agnostic principles:** Methodology must generalize beyond physics
-- **Human-in-the-loop:** LLM outputs never enter final manuscripts without explicit human approval
-- **Open-source:** All tools, prompts, and protocols publicly available
+### The Problem
 
-## Key Metrics
-| Metric | Value |
-|:-------|:------|
-| Speedup factor (physics case study) | ~20–30× |
-| Setup time (Solo-Research Stack) | <15 minutes |
-| Effective team size amplification | ~1 order of magnitude |
-| Core derivation time (LLM-assisted) | Minutes vs. weeks |
+Modern science rewards big teams. The ATLAS collaboration has 3,000+ scientists. The average biomedical paper lists 6.5 authors. The solo scientist — once the default mode of discovery — is at a structural disadvantage, not because they lack ideas, but because they lack **throughput**: literature review, code prototyping, equation derivation, drafting.
+
+### The Shift
+
+LLMs crossed a threshold. They can now synthesize literature, derive and verify equations, generate and run code, and draft technical prose — all in a single conversation with file access and code execution.
+
+### The Claim
+
+A single researcher, following a structured five-phase protocol with an LLM, can reproduce the output of a small research team. Our preliminary self-experiments suggest speedups of $25\times$ to $90\times$ across two domains (theoretical physics, computational linguistics).
+
+### The Stack (4 components — that's it)
+
+| Component | Why |
+|:----------|:----|
+| **LLM Interface** | The brain |
+| **File I/O** | Persistent state across turns |
+| **Code Execution** | All quantitative claims verified |
+| **Git** | Audit trail, reproducibility |
+
+No Docker. No API keys. No multi-agent frameworks. A single conversation thread with file access and code execution is the entire architecture.
+
+### The 5-Phase Protocol
+
+| Phase | What Happens | Who Leads |
+|:------|:-------------|:----------|
+| **1. Define** | Frame the question, set success criteria | Human |
+| **2. Delegate** | Issue structured prompts | Human → LLM |
+| **3. Execute & Iterate** | LLM produces; human reviews; repeat | LLM + Human |
+| **4. Verify** | Code checks, limit tests, reader test, human review | LLM + Human |
+| **5. Synthesize** | Assemble final output | LLM |
+
+### The 5 Prompts
+
+Five reusable prompt patterns cover the full pipeline: Literature Synthesis, Derivation with Reality Check, Code Prototyping, Section Drafting, Verification Audit. → See [`prompts/`](prompts/)
+
+### Try It Today
+
+1. **Pick a research question** — something you'd normally budget a week for.
+2. **Open an LLM conversation** with file access and code execution.
+3. **Follow the five phases** (total: ~5 hours of focused time).
+4. **Measure your speedup.** Compare against how long it would have taken alone.
+5. **Report back.** → See [`CONTRIBUTING.md`](CONTRIBUTING.md)
+
+### Read the Full Whitepaper
+
+→ **[PLAYBOOK.md](PLAYBOOK.md)** — complete methodology, case studies, verification protocol, limitations, and call to action.
+
+---
+
+> *The bottleneck to scientific productivity could shift from team size to human creativity and LLM-fluency. The solo scientist is back.*
